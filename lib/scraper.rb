@@ -30,7 +30,7 @@ class Scraper
       if course.title && course.title != ""
         puts "Title: #{course.title}"
         puts "Schedule: #{course.schedule}"
-        puts "Title: #{course.description}"
+        puts "Description: #{course.description}"
       end
     end
   end 
