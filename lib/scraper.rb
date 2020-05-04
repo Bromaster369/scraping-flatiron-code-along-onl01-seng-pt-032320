@@ -26,7 +26,9 @@ class Scraper
   
   def make_courses
     self.make_courses
-    Course 
+    Course.all.each do |course|
+      if course.title && course.title != ""
+        puts ""
     
     
     
