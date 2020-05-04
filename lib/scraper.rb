@@ -24,7 +24,12 @@ class Scraper
     self.get_page.css(".post")
   end 
   
-  def 
+  def make_courses
+    self.
+    
+    
+    
+  end 
   
 end
 
